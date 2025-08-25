@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 2</title>
+</head>
+<body>
+<h1>Formulario de Produtos</h1>
+<form>
+    <label for="input_produto">Nome do Produto:</label>
+    <input id="input_produto" type="text" placeholder="Nome" required>
+    <br><br>
+
+
+    <label for="text_descrição">Descrição do Produto:</label>
+    <br>
+    <textarea id="text_descrição" cols="30" rows="10" placeholder="Descreva o Produto" required></textarea>
+    <br><br>
+
+    <label for="menu_categ">Categoria:</label>
+    <select id="menu_categ">
+        <option>Eletrônicos</option>
+        <option>livros</option>
+        <option>Brinquedos</option>
+        <option>Esportes</option>
+        <option>Calçados</option>
+    </select>
+
+    <br><br>
+    <label for="menu_pais">Paises:</label>
+    <select id="menu_pais" required>
+        <option>Estados Unidos</option>
+        <option>China</option>
+        <option>Vietnã</option>
+        <option>Tailandia</option>
+        <option>Brasil</option>
+    </select>
+    <br><br>
+    <label for="preço">Valor:</label>
+    <input id="preço" type="number">
+    <br><br>
+    <label for="data">Data de Fabicração:</label>
+    <input id="data" type="date">
+    <br><br>
+    <button type="submit">Enviar</button>
+
+    <button type="reset">Resetar</button>
+
+
+</form>
+</body>
+</html>

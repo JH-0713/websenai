@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="py-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 3</title>
+</head>
+<body>
+<h1 style="text-align:center;">PESQUISA DE SATISFAÇÃO DO CLIENTE</h1>
+<form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" required>
+    <br><br>
+
+    <label for="empresa">Empresa:</label>
+    <input type="text" id="empresa" required>
+    <br><br>
+
+    <label>Idade:</label><br>
+    <input id="idade_10-20" type="radio" value="10-20" name="idade" required>
+    <label for="idade_10-20">10-20 anos</label>
+
+    <input id="idade_20-30" type="radio" value="20-30" name="idade" required>
+    <label for="idade_20-30">20-30 anos</label>
+
+    <input id="idade_30-50" type="radio" value="30-50" name="idade" required>
+    <label for="idade_30-50">30-50 anos</label>
+
+    <input id="idade_50-80" type="radio" value="50-80" name="idade" required>
+    <label for="idade_50-80">50-80 anos</label>
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+    <br><br>
+
+    <label for="telefone">Telefone Comercial:</label>
+    <input type="tel" id="telefone" required>
+    <label for="celular">Celular:</label>
+    <input type="tel" id="celular" required>
+    <br><br>
+
+    <label>Como você avalia os nossos serviços atualmente?</label><br>
+    <input id="regular" type="radio" value="REGULAR" name="opiniao_1" required>
+    <label for="regular">REGULAR</label>
+
+    <input id="bom" type="radio" value="BOM" name="opiniao_1" required>
+    <label for="bom">BOM</label>
+
+    <input id="excelente" type="radio" value="EXCELENTE" name="opiniao_1" required>
+    <label for="excelente">EXCELENTE</label>
+    <br><br>
+
+    <label>Como voce avalia os serviços da area operacional?</label><br>
+    <input id="regular" type="radio" value="REGULAR" name="opiniao_2" required>
+    <label for="regular">REGULAR</label>
+
+    <input id="bom" type="radio" value="BOM" name="opiniao_2" required>
+    <label for="bom">BOM</label>
+
+    <input id="excelente" type="radio" value="EXCELENTE" name="opiniao_2" required>
+    <label for="excelente">EXCELENTE</label>
+    <br><br>
+
+    <label>Qual o nivel de satisfação com o atendimento administrativo quando você precisa?</label><br>
+    <input id="regular" type="radio" value="REGULAR" name="opiniao_3" required>
+    <label for="regular">POUCO SATISFATÓRIO</label>
+
+    <input id="bom" type="radio" value="BOM" name="opiniao_3" required>
+    <label for="bom">SATISFATÓRIO</label>
+
+    <input id="excelente" type="radio" value="EXCELENTE" name="opiniao_3" required>
+    <label for="excelente">MUITO SATISFATÓRIO</label>
+    <br><br>
+
+    <label>Os profissionais lhe atendem de forma satisfatória?</label><br>
+    <input id="nao" type="radio" value="NÃO" name="opiniao_4" required>
+    <label for="nao">NÃO</label>
+
+    <input id="sim" type="radio" value="SIM" name="opiniao_4" required>
+    <label for="sim">SIM</label>
+
+    <br><br>
+    <label for="text_descrição">Você tem alguma sugestão ou crítica a fazer para cada vez mais melhorarmos nossos serviços?</label>
+    <br>
+    <textarea id="text_descrição" cols="80" rows="10"></textarea>
+
+    <br><br>
+
+    <button type="submit">Enviar</button>
+
+    <button type="reset">Resetar</button>
+</form>
+<h3 style="text-align:center;">Muito Obrigado (a)<BR> sua opinião é fundamental para nós!</h3>
+</body>
+</html>
