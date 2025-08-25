@@ -60,15 +60,15 @@ pcp1 = [0]
 def vitoria_p1():
     pri1 = pj1[0]
     calc1 = pri1 + 1
-    pj1 = [calc1]
-    return pj1
+    w1 = pj1[calc1]
+    return w1
 
 
 def vitoria_cpu1():
     pri2 = pcp1[0]
     calc1 = pri2 + 1
-    pcp1 = [calc1]
-    return pcp1
+    wc1 = pcp1[calc1]
+    return wc1
 
 
 def msg():
