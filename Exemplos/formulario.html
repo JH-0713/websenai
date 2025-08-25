@@ -5,6 +5,29 @@
     <title>teste inputs</title>
 </head>
 <body>
+<h1>Formulário</h1>
 
+<form> <!--action="submit"  method="POST" -->
+    <label for="input_nome">Nome:</label>
+    <input id="input_nome" type="text" placeholder="Nome" required>
+    <br><br>
+    <label for="input_email">Email:</label>
+    <input id="input_email" type="email" placeholder="Joaozin@gmail.com" required>
+    <br><br>
+    <label for="input_senha">Senha:</label>
+    <input id="input_senha" type="password" required>
+    <br><br>
+    <label for="text_descrição">Descrição:</label>
+    <br>
+    <textarea id="text_descrição" cols="30" rows="10"></textarea>
+    <br><br>
+    <label>Genero</label><br>
+    <input id="radio_m" type="radio" value="Masculino" name="genero">
+    <label for="radio_m">Masculino</label>
+    <br>
+    <input id="radio_f" type="radio" value="Feminino" name="genero">
+    <label for="radio_f">Feminino</label>
+
+</form>
 </body>
 </html>
