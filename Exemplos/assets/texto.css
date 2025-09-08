@@ -1,7 +1,23 @@
-    h1{
-    color: cornflowerblue;
+h1 {
 }
 
-    p{
+p {
+    color: red;
+}
+.text-black{
+    color:red;
+    background-color: black;
+    display: inline;
+}
+#text-maior{
+    color:red;
+    font-size: 32px;
+    font-family: "Arial Black";
+}
 
+#text-maior:hover{
+    color:blue;
+    font-size: 32px;
+    font-family: "Arial Black";
+    background-color: yellow;
 }

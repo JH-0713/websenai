@@ -1,0 +1,14 @@
+body {
+	background-color: black;
+}
+
+.titulo {
+    text-align: center;
+    color: red;
+}
+.frase{
+    background-color: red;
+    color: white;
+    font-size: 36px;
+    font-family: "arial";
+}

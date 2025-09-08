@@ -1,0 +1,8 @@
+.enderecos {
+    color: black;
+    text-decoration: none;
+}
+.enderecos:hover {
+    color: red;
+    text-decoration: none;
+}
