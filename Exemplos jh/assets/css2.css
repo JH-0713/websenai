@@ -1,0 +1,6 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, blue, blueviolet, purple);
+}

@@ -1,0 +1,57 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black; /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, blue, blueviolet, purple);
+}
+input {
+    display: block;
+    margin-left: 30%;
+}
+label {
+    display: block;
+    margin-left: 18%;
+    margin-top: 5%;
+    margin-down: 50px;
+}
+h1 {
+    font-size: 40px;
+    font-family: "Times New Roman";
+}
+.login {
+    border: 10px outset blueviolet;
+    background-color: white;
+    height: 275px;
+    width: 23%;
+    margin: auto;
+    margin-top: 13.5%;
+    text-align: center;
+    aling-items: center;
+    font-family: "Brush Script MT";
+
+}
+
+.class1 {
+    background-color: white;
+    height: 20%;
+    width: 20%;
+}
+
+.botao1 {
+    text-align:  center;
+    border: 5px outset black;
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 63px;
+    margin-top: 3%;
+}
+
+.botao1:hover {
+    border: 5px outset white;
+    background-color: black;
+    color: white;
+    height: 10%;
+    width: 15%;
+
+}
