@@ -1,7 +1,7 @@
 body {
     background-color: lightblue;
+    text-align: center;
 }
-
 .verde {
     height: 250px;
     width: 250px;
@@ -10,7 +10,9 @@ body {
     margin: 10px;
     padding: 10px;
     display: inline-block;
+    text-align: center;
 }
+
 .azul {
     height: 250px;
     width: 250px;
@@ -19,8 +21,10 @@ body {
     margin: 10px;
     padding: 10px;
     display: inline-block;
+    text-align: center;
 
 }
+
 .amarelo {
     height: 250px;
     width: 250px;
@@ -29,13 +33,16 @@ body {
     margin: 10px;
     padding: 10px;
     display: inline-block;
-
+    text-align: center;
 }
+
 .verde2 {
     height: 200px;
-    width: 55%;
+    width: 58%;
     border-radius: 40px;
     background-color: green;
     margin: 10px;
     padding: 10px;
+    text-align: center;
+    display: inline-block;
 }

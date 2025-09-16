@@ -1,20 +1,38 @@
-.header {
+body {
+    background-color: lightblue;
+}
+
+.verde {
     background: green;
     height: 100px;
+    text-align: center;
 }
+
 .azul {
     background: blue;
     height: 200px;
     width: 49.5%;
     display: inline-block;
+    text-align: center;
 }
+
 .amarelo {
     background: yellow;
     height: 200px;
     width: 49.5%;
     display: inline-block;
+    text-align: center;
 }
-body {
+
+.verde2 {
+    background: green;
+    height: 100px;
+
+    text-align: center;
+}
+
+.azul_bebe {
     background: lightblue;
     font-size: 36px;
+    text-align: center;
 }

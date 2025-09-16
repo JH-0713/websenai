@@ -1,0 +1,103 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+}
+
+.verde {
+    height: 250px;
+    width: 250px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.azul {
+    height: 250px;
+    width: 250px;
+    border-radius: 500px;
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.amarelo {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    background-color: yellow;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.verde2 {
+    height: 200px;
+    width: 58%;
+    border-radius: 40px;
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.verde:hover {
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.azul:hover {
+    height: 250px;
+    width: 250px;
+    border-radius: 500px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.amarelo:hover {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.verde2:hover {
+    height: 200px;
+    width: 58%;
+    border-radius: 40px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+}
