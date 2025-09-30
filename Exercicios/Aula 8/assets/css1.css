@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.vermelho {
+    flex: auto;
+    display: flex;
+    background: #FF675E;
+    width: 100%;
+    height: 50px;
+    color: #FF675E;
+}
+
+.azul {
+    display: flex;
+    flex: auto;
+    background: #70C6D2;
+    width: 100%;
+    height: 250px;
+    color: #70C6D2;
+    margin-top: 45px;
+}
+
+.azul-clarinho {
+    display: flex;
+    width: 100%;
+    height: 210px;
+    margin-top: 45px;
+
+}
+
+.azul-clarinho div {
+    background: #D5EEF7;
+    height: 200px;
+    margin: 15px;
+    flex: auto;
+    color: #D5EEF7;
+}
+
