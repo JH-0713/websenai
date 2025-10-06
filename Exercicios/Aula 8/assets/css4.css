@@ -18,6 +18,7 @@ h4 {
     flex: auto;
     display: flex;
     background: #5F8EE5;
+    margin: 0;
     color: white;
     width: 100%;
     height: 55px;
@@ -29,7 +30,7 @@ h4 {
     width: 100%;
     height: 55px;
     justify-content: flex-end;
-    margin: 10px;
+    margin: 8px;
 }
 
 .reader h1 {
@@ -51,19 +52,37 @@ h4 {
     align-items: center;
 }
 
-.azul-clarinho {
+.opition {
     display: flex;
     width: 100%;
-    height: 210px;
-    margin-top: 45px;
-
+    height: 300px;
+    margin-top: 30px;
+    background-color: #F8F7F7;
 }
 
-.azul-clarinho div {
+.opition div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #D5EEF7;
-    height: 200px;
-    margin: 15px;
+    height: 270px;
+    margin: 20px;
     flex: auto;
-    color: #D5EEF7;
+    flex-flow: column;
 }
 
+.opition h3 {
+    color: #252263;
+}
+
+.opition h3, p {
+    text-align: center;
+}
+
+
+.img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin: 10px;
+}
