@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex: auto;
+    background: red;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    float: left;
+    background: gray;
+    height: 100%;
+    width: 10%;
+}
+
+.navigation div {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    float: left;
+    background: gray;
+    height: auto;
+    width: 10%;
+    height: 100%;
+}

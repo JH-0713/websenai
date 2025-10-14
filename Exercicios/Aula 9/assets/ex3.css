@@ -1,0 +1,62 @@
+body {
+    background: saddlebrown;
+}
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial;
+}
+
+tr th,td {
+    color: lightskyblue;
+    background-color: midnightblue;
+    text-align: center;
+}
+
+.p {
+    border-right: 3px solid black;
+}
+
+.verde {
+    color: lawngreen;
+    background-color: midnightblue;
+    text-align: center;
+}
+
+.azulzin {
+    color: lightskyblue;
+    background-color: midnightblue;
+    text-align: center;
+}
+
+.amarelo {
+    color: yellow;
+    background-color: midnightblue;
+    text-align: center;
+}
+
+.branco {
+    color: white;
+    background-color: midnightblue;
+    text-align: center;
+}
+
+.vermelho {
+    color: red;
+    background-color: midnightblue;
+    text-align: center;
+}
+
+.times {
+    background: floralwhite;
+    color: midnightblue;
+    text-align: left;
+}
+
+.pontos {
+    background: lightskyblue;
+    color: midnightblue;
+    text-align: center;
+    border-right: 3px solid black;
+}
